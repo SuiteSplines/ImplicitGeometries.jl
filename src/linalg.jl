@@ -1,0 +1,1 @@
+@inline mix(a::T, b::T, t::T) where {T<:Real} = a * (1 - t) + b * t

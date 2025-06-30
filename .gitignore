@@ -1,0 +1,11 @@
+/Manifest*.toml
+/docs/Manifest*.toml
+/docs/build/
+/registries
+Manifest.toml
+/.vscode
+*.pvsm
+*.vtk
+*.vti
+poc*.jl
+lcov.info
