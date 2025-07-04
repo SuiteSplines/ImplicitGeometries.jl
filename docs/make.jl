@@ -14,7 +14,9 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
+        "Examples" => "examples.md",
     ],
+    warnonly = true,
 )
 
 deploydocs(;

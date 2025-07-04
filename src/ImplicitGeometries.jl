@@ -4,6 +4,7 @@ module ImplicitGeometries
     import Rotations: RotX, RotY, RotZ
 
     include("base.jl")
+    include("bezier.jl")
     include("linalg.jl")
     include("gradients.jl")
     include("shapes.jl")
