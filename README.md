@@ -9,6 +9,13 @@ This package enables construction of implicit geometries by composition of
 primitive shapes described by signed distance functions. It supports
 evaluation of gradients and normals of such implicit representations.
 
+## Installation
+
+This package is registered in the General registry.
+
+```julia-repl
+(SomePkg) pkg> add ImplicitGeometries
+```
 
 ## Example
 
