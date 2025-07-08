@@ -14,7 +14,7 @@ evaluation of gradients and normals of such implicit representations.
 This package is registered in the General registry.
 
 ```julia-repl
-(SomePkg) pkg> add ImplicitGeometries
+pkg> add ImplicitGeometries
 ```
 
 ## Example
