@@ -36,7 +36,7 @@ jobs:
           git config --global user.email "bot@suitesplines.com"
           git config --global user.name "SuiteSplines Bot"
           git config --global init.defaultBranch main
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: julia-actions/setup-julia@v2
         with:
           version: ${{ matrix.version }}
@@ -61,7 +61,7 @@ jobs:
       contents: write
       statuses: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: julia-actions/setup-julia@v2
         with:
           version: '1'
